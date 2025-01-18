@@ -1,4 +1,4 @@
-The following SQL query uses an inner join to connect movie_name, movie_genre and find the sum of movie revenue
+/* The following SQL query uses an inner join to connect movie_name, movie_genre and find the sum of movie revenue */
 
 SELECT D.title AS movie_name, F.name AS movie_genre, SUM(A.amount) AS sum_movie_revenue
 FROM payment A
