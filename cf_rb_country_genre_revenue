@@ -1,0 +1,17 @@
+The following inner join selects country, movie genre, and finds the sum of each genre by country
+
+SELECT 
+    D.country,
+    E.name AS movie_genre,
+    SUM(P.amount) AS sum_genre_revenue
+FROM payment P
+  INNER JOIN rental R ON P.rental_id = R.rental_id
+  INNER JOIN inventory I ON R.inventory_id = I.inventory_id
+  INNER JOIN film_category FC ON I.film_id = FC.film_id
+  INNER JOIN category E ON FC.category_id = E.category_id
+  INNER JOIN customer A ON P.customer_id = A.customer_id
+  INNER JOIN address B ON A.address_id = B.address_id
+  INNER JOIN city C ON B.city_id = C.city_id
+  INNER JOIN country D ON C.country_ID = D.country_ID
+GROUP BY D.country, E.name
+ORDER BY D.country, sum_genre_revenue DESC
