@@ -16,7 +16,7 @@ the main questions they’d like to answer:
 
 ## Data
 
-The fictional "Rockbuster" dataset can be found here: [http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip]
+The fictional "Rockbuster" dataset can be found [here](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
 
 File should be a zip of dvdrental.tar
 
@@ -24,11 +24,13 @@ File should be a zip of dvdrental.tar
 
 The PostgreSQL database was utilized for running the assignment queries. 
 
-Database links here (Windows, Mac, Linux): [https://www.enterprisedb.com/downloads/postgres-postgresql-downloads]
+Database [links](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 
-## Executing the Code
+## SQL Queries
+
+Rockbuster Steath CTE files are located in folder **Rockbuster Stealth Video Rental Analysis/02 Query Data/**
 
 ## Resources
 
-Link to an interactive Tableau map of data presented within the Rockbuster project: [https://public.tableau.com/app/profile/kirsten.currie/viz/RockbusterCustomerPaymentTotalsbyCountry/CustomerPayments?publish=yes]
+Link to an interactive Tableau map of data presented within the Rockbuster [project](https://public.tableau.com/app/profile/kirsten.currie/viz/RockbusterCustomerPaymentTotalsbyCountry/CustomerPayments?publish=yes)
