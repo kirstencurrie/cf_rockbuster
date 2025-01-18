@@ -1,4 +1,4 @@
-Here is SQL query for grouping the sum of revenue for different movie genre categories
+/*Here is SQL query for grouping the sum of revenue for different movie genre categories*/
 
 SELECT E.name AS movie_genre, SUM(A.amount) AS sum_genre_revenue
 FROM payment A
