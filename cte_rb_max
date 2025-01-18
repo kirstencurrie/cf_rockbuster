@@ -1,4 +1,4 @@
-Here is SQL query to calculate the max, average, and count of the 'rental_duration' value
+/* Here is SQL query to calculate the max, average, and count of the 'rental_duration' value */
 
 SELECT MIN(rental_duration) AS min_rent_duration,
  MAX(rental_duration) AS max_rent_duration,
