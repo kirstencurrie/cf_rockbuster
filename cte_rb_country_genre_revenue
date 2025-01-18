@@ -1,4 +1,4 @@
-The following inner join selects country, movie genre, and finds the sum of each genre by country
+/* The following inner join selects country, movie genre, and finds the sum of each genre by country */
 
 SELECT 
     D.country,
