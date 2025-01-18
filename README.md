@@ -30,3 +30,5 @@ Database links here (Windows, Mac, Linux): [https://www.enterprisedb.com/downloa
 ## Executing the Code
 
 ## Resources
+
+Link to an interactive Tableau map of data presented within the Rockbuster project: [https://public.tableau.com/app/profile/kirsten.currie/viz/RockbusterCustomerPaymentTotalsbyCountry/CustomerPayments?publish=yes]
