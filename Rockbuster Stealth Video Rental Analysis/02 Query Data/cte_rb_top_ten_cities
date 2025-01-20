@@ -1,5 +1,6 @@
-/* This query pulls the list of top ten cities from the list of top ten countries*/
+This query pulls the list of top ten cities from the list of top ten countries
 
+~~~SQL
 SELECT D.country, C.city,
 COUNT(city) AS count_of_customers
 FROM customer A
@@ -19,3 +20,4 @@ LIMIT 10
 GROUP BY country, city
 ORDER BY count_of_customers DESC
 LIMIT 10;
+~~~
