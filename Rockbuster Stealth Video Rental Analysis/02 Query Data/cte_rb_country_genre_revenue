@@ -1,5 +1,6 @@
-/* The following inner join selects country, movie genre, and finds the sum of each genre by country */
+The following inner join selects country, movie genre, and finds the sum of each genre by country
 
+~~~SQL
 SELECT 
     D.country,
     E.name AS movie_genre,
@@ -15,3 +16,4 @@ FROM payment P
   INNER JOIN country D ON C.country_ID = D.country_ID
 GROUP BY D.country, E.name
 ORDER BY D.country, sum_genre_revenue DESC
+~~~
