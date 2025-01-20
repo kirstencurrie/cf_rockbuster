@@ -7,9 +7,10 @@ SELECT MIN(rental_duration) AS min_rent_duration,
  COUNT(rental_duration) AS count_rent_duration_values,
  COUNT(*) AS count_rows
 FROM film;
-
+~~~
 Here is SQL query to calculate the max, average, and count of the 'rental_rate' value
 
+~~~SQL
 SELECT MIN(rental_rate) AS min_rental_rate,
  MAX(rental_rate) AS min_rental_rate,
  AVG(rental_rate) AS min_rental_rate,
