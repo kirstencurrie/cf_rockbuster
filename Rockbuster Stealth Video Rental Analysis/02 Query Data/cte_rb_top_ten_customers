@@ -1,5 +1,6 @@
-/* This query pulls a list of the top ten customers from the top ten cities, from the top ten countries*/
+This query pulls a list of the top ten customers from the top ten cities, from the top ten countries
 
+~~~SQL
 SELECT A.customer_id, B.first_name, B.last_name, D.city, E.country,
 SUM(A.amount) AS total_amount_paid
 FROM payment A
@@ -30,4 +31,4 @@ LIMIT 10
 GROUP BY A.customer_id, B.first_name, B.last_name, D.city, E.country
 ORDER BY total_amount_paid DESC
 LIMIT 5;
-
+~~~
