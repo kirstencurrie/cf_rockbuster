@@ -1,5 +1,6 @@
-/* Pulls the top 10 countries by count of customers*/
+Pulls the top 10 countries by count of customers
 
+~~~SQL
 SELECT D.country,
 COUNT(country) AS count_of_customers
 FROM customer A
@@ -9,3 +10,4 @@ FROM customer A
 GROUP BY country
 ORDER BY count_of_customers DESC
 LIMIT 10;
+~~~
