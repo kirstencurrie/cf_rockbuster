@@ -1,7 +1,5 @@
 # cf_rockbuster
-This is an intro to SQL project analyzing "Rockbuster" DVD Rental Sales as an introduction to relational databases.
-
-The following information came from a fictional prompt in the Career Foundry's module #3 on SQL. 
+A movie rental business hopes to break out of the dark ages into the movie streaming business. Board members at a fictional company (Rockbuster Steath) hope a data analyst can sift through their data tables to decipher what the top performing, movie genres, and highest paying customers are. Once all of this insightful data is gleaned, what will their first foray into digitization be??
 
 ## Objective
 The Rockbuster Stealth Management Board has asked a series of business questions and
