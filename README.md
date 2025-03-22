@@ -18,6 +18,10 @@ The fictional "Rockbuster" dataset can be found [here](http://www.postgresqltuto
 
 File should be a zip of dvdrental.tar
 
+The following is a snapshot of the entity relationship diagram highlighting all of the tables involved in the relational database queries.
+
+![Rockbuster ERD](assets/rockbuster_erd.png)
+
 ## Tools
 
 The PostgreSQL database was utilized for running the assignment queries. 
